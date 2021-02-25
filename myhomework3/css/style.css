@@ -1,0 +1,64 @@
+.My-simple-website {
+  background-color: #a52a2a;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.cupiditate {
+  font-weight: bold;
+}
+
+.recusandae {
+  font-style: oblique;
+  font-weight: bold;
+  color: #165cff;
+}
+
+.Lorem {
+  font-weight: bold;
+  color: #165cff;
+}
+
+.Copyright {
+  background-color: black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.car1 {
+  border-style: dashed;
+  background-size: 144px 104px;
+}
+
+.car2 {
+  border-style: dashed;
+  background-size: 144px 104px;
+}
+
+.car3 {
+  border-style: dashed;
+  background-size: 144px 104px;
+}
+
+.car4 {
+  border-style: dashed;
+  background-size: 144px 104px;
+}
+
+.car5 {
+  border-style: dashed;
+  background-size: 144px 104px;
+}
+
+.carfull {
+  background-size: 100%;
+}
+
+.all {
+  width: 300px;
+  margin: auto;
+}
