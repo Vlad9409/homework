@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.imagen {
+  width: 100%;
+  background-color: black;
+}
+
+.logo {
+  padding-top: 110px;
+  text-align: center;
+}
+
+.text {
+  color: white;
+
+  font-size: 20px;
+  padding-top: 44px;
+  padding-left: 690px;
+  letter-spacing: 1px;
+}
+
+.line {
+  text-align: center;
+  width: 230px;
+  margin-top: 15px;
+}
+
+.copy {
+  color: #fff;
+  padding-left: 652px;
+  padding-top: 80px;
+  letter-spacing: 0.5px;
+}
+
+.Kasper {
+  color: #19c8fa;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.face {
+  padding-left: 695px;
+}
+
+.twet {
+  padding-left: 32px;
+}
+
+.goog {
+  padding-left: 32px;
+}
+
+.drib {
+  padding-left: 22px;
+}
