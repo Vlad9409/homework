@@ -23,6 +23,12 @@ body {
   color: #fff;
 }
 
+.blog__text {
+  text-align: center;
+  font-size: 90px;
+  color: #fff
+}
+
 .text {
   width: 544px;
   height: 65px;
@@ -70,6 +76,13 @@ body {
   left: 650px;
   top: 690px;
 }
+
+.buton__bloc {
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
+
 .button {
   background-color: #f72b3b;
   box-sizing: border-box;
@@ -85,13 +98,12 @@ body {
   height: 60px;
   margin-top: 30px;
   margin-left: 30px;
-  background: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10%;
-  opacity: 0.5;
   position: absolute;
 }
 
-h1 {
+.month {
   color: #fff;
   font-size: 20px;
   margin-top: 5px;
