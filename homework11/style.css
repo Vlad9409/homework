@@ -1,0 +1,119 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  background: url(/homework11/image/img.png) top center no-repeat;
+}
+
+.main-header__logo {
+  width: 54px;
+}
+
+.main-header {
+  width: 1170px;
+  padding: 55px 0 0 0;
+  margin: 0 auto;
+}
+
+.blok {
+  margin-left: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header__nav {
+  position: absolute;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.main-header__link {
+  color: #262626;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 700;
+
+  margin-left: 38px;
+}
+
+.linl_active {
+  border-top: 2px solid #ff6033;
+}
+
+.text {
+  width: 370px;
+  height: 150px;
+  box-sizing: border-box;
+  padding-top: 260px;
+  padding-bottom: 494px;
+}
+
+h1 {
+  font-size: 44px;
+  color: #262626;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #59595a;
+}
+
+.button {
+  width: 200px;
+  height: 55px;
+  margin-top: 36px;
+  background: #ff6033;
+  color: #fff;
+  border: 0;
+}
+
+.main-bodies {
+  margin: 0;
+}
+
+.main-bodies__content {
+  width: 1500px;
+  height: 700px;
+  margin: 0 auto;
+  background: #00bbbb;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-bodies__image {
+  width: 550px;
+  height: 550px;
+  padding-top: 35px;
+  padding-left: 150px;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+}
+
+.text-bottom {
+  width: 500px;
+  height: 184px;
+  margin-left: 685px;
+  margin-top: -550px;
+}
+
+.about {
+  float: left;
+  font-size: 66px;
+  color: #fff;
+}
+
+p {
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  float: left;
+}
