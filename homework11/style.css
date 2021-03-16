@@ -13,6 +13,7 @@ body {
 
 .main-header__logo {
   width: 54px;
+  float: left;
 }
 
 .main-header {
@@ -23,6 +24,7 @@ body {
 
 .blok {
   margin-left: 550px;
+  padding-top: 24px;
   display: flex;
   justify-content: space-between;
 }
@@ -85,28 +87,32 @@ h2 {
   height: 700px;
   margin: 0 auto;
   background: #00bbbb;
+ 
+}
+
+.main__content-bloc {
+  padding: 0 120px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 77px;
 }
 
 .main-bodies__image {
+  background: url(/homework11/image/img\ 2.png) top center no-repeat;
+  background-size: 550px 550px;
   width: 550px;
   height: 550px;
-  padding-top: 35px;
-  padding-left: 150px;
-  padding-bottom: 35px;
-  box-sizing: border-box;
+
 }
 
 .text-bottom {
+  box-sizing: border-box;
   width: 500px;
-  height: 184px;
-  margin-left: 685px;
-  margin-top: -550px;
+  margin-left: 80px;
 }
 
 .about {
-  float: left;
   font-size: 66px;
   color: #fff;
 }
