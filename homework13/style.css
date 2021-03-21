@@ -1,0 +1,447 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 1920px;
+  min-height: 1076px;
+  background: url(/homework13/image/hero-bg.jpg.svg) center no-repeat;
+}
+
+HTML fieldset {
+  position: relative;
+}
+
+HTML legend {
+  position: relative;
+}
+
+.header__logo {
+  position: absolute;
+  top: 284px;
+}
+
+.header__text {
+  width: 902px;
+  color: #fff;
+  margin-top: 450px;
+}
+
+.header__text-blok {
+  margin: 0 auto;
+  width: 600px;
+  min-height: 230px;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 9px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+}
+
+.header__text-maintext {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.header__text-info {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 29px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.header__text-scroll {
+  display: flex;
+  justify-content: center;
+  margin-top: 184px;
+}
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 1920px;
+  min-height: 632px;
+}
+
+.about-us__content {
+  margin-top: 162px;
+  width: 902px;
+  height: 312px;
+  background-color: #ffffff;
+}
+
+.about__us-text {
+  font-size: 34px;
+  letter-spacing: 5px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.about-us__text {
+  width: 552px;
+  margin: 0 auto;
+  padding-left: 175px;
+  padding-right: 175px;
+}
+
+.about__us-maincontent {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 1920px;
+  min-height: 488px;
+  background: url(/homework13/image/services.jpg.svg) no-repeat;
+}
+
+.services__content {
+  margin-top: 128px;
+  width: 902px;
+  height: 248px;
+  padding-left: 175px;
+  padding-right: 175px;
+}
+
+.services__content-text {
+  width: 552px;
+  margin: 0 auto;
+  border-color: #fff;
+  padding-left: 87px;
+  padding-right: 87px;
+}
+
+.services__content-description {
+  font-size: 34px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.services__content-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.what-we-do {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 1920px;
+  height: 1400px;
+}
+
+.what-we-do__content {
+  margin-top: 120px;
+  width: 902px;
+  height: 1300px;
+  background-color: #ffffff;
+}
+
+.what-we-do__content-text {
+  margin: 0 auto;
+  width: 552px;
+  min-height: 793px;
+  padding-left: 175px;
+  padding-right: 175px;
+}
+
+.what-we-do__content-text-description {
+  font-size: 34px;
+  letter-spacing: 5px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.what-we-do__image {
+  display: flex;
+  justify-content: center;
+  margin-top: 115px;
+}
+
+.what-we-do__content-text-design {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.what-we-do__content-maintext {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 26px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.what-we-do__comand {
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+}
+
+.what-we-do__comand-text-development {
+  margin-top: 38px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.what-we-do__comand-maintext {
+  margin-top: 40px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.product-management__image {
+  display: flex;
+  justify-content: center;
+  margin-top: 115px;
+}
+
+fieldset .product-management__text {
+  margin-top: 38px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.prodact-management__maintext {
+  margin-top: 40px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.galery {
+  margin-top: 115px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 1920px;
+  height: 484px;
+  background-color: thistle;
+}
+
+.galery-blok {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.dalery-blok__topworks {
+  box-sizing: border-box;
+  width: 548px;
+  height: 237px;
+  margin-bottom: 5px;
+  margin-right: 4px;
+}
+
+.dalery-blok__joint {
+  box-sizing: border-box;
+  width: 802px;
+  height: 237px;
+  margin-bottom: 5px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.dalery-blok__market {
+  box-sizing: border-box;
+  width: 550px;
+  height: 237px;
+  margin-bottom: 5px;
+  margin-left: 4px;
+}
+
+.dalery-blok__worktop {
+  box-sizing: border-box;
+  width: 548px;
+  height: 237px;
+  margin-top: 5px;
+  margin-right: 4px;
+}
+
+.dalery-blok__lable {
+  box-sizing: border-box;
+  width: 802px;
+  height: 237px;
+  margin-top: 5px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.dalery-blok__kyiv {
+  box-sizing: border-box;
+  width: 550px;
+  height: 237px;
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+.topworkz {
+  margin-top: 170px;
+  margin-left: 48px;
+  font-size: 34px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 1920px;
+  height: 600px;
+}
+
+.contact-us__container {
+  margin-top: 130px;
+  width: 902px;
+  height: 294px;
+  background-color: #ffffff;
+}
+
+.contact-us__info {
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.contact-us__text {
+  margin: 0 auto;
+  width: 552px;
+  min-height: 270px;
+  padding-left: 175px;
+  padding-right: 175px;
+}
+
+.contact-us__maintext {
+  font-size: 16px;
+  line-height: 26px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.contact-us__button {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.button-submit {
+  width: 395px;
+  height: 58px;
+  background-color: #3c3c3c;
+  border: 2px solid #3c3c3c;
+  color: #d8d8d8;
+}
+
+.button-submit:hover {
+  content: "";
+  background-color: #a8a8a8;
+  border: 2px solid #a8a8a8;
+  color: #fff;
+}
+
+.contact-us__image {
+  margin-top: 78px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-us__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 19px;
+}
+
+.contac-us__footer {
+  margin-left: 19px;
+  font-size: 14px;
+  color: #3c3c3c;
+  font-weight: 400;
+  font-family: "Lato";
+}
+
+.about-text {
+  margin-left: 100px;
+  margin-right: 94px;
+}
+
+.services-text {
+  margin-left: 117px;
+  margin-right: 113px;
+}
+
+.what-we__text {
+  margin-left: 70px;
+  margin-right: 74px;
+}
+
+.contakt-text {
+  margin-left: 100px;
+  margin-right: 94px;
+}
