@@ -1,0 +1,146 @@
+.text {
+  margin: 144px 0 0 0;
+  text-align: center;
+  color: #898f99;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.namaste {
+  color: #0ec8cb;
+  margin: 36px 0 0 0;
+  text-align: center;
+  font-size: 36px;
+  box-sizing: border-box;
+}
+
+.wedont {
+  margin: 44px 508px;
+  text-align: center;
+  color: #999999;
+  font-size: 12px;
+  box-sizing: border-box;
+  line-height: 18px;
+}
+div.yakor {
+  margin-left: 170px;
+}
+
+.yakor {
+  background-color: #f7f7f7;
+  width: 370px;
+  height: 420px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 195px;
+  line-height: 30px;
+  position: relative;
+  display: table-cell;
+  border: 1px solid #ececec;
+}
+
+.yakor:before {
+  content: "";
+  background: url(/homework6/Anchor.svg) no-repeat center;
+  width: 66px;
+  height: 65px;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 68px;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+}
+
+.yakor h4 {
+  color: #979797;
+}
+
+.diamand {
+  background-color: #0ec8cb;
+  color: white;
+  width: 370px;
+  height: 420px;
+  text-align: center;
+  padding-top: 195px;
+  font-size: 18px;
+  line-height: 30px;
+  position: relative;
+  display: table-cell;
+}
+
+.diamand:before {
+  content: "";
+  background: url(/homework6/Diamond.svg) no-repeat center;
+  width: 66px;
+  height: 65px;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 68px;
+  left: 0;
+  right: 0;
+}
+
+.ochki {
+  background-color: #f7f7f7;
+  width: 370px;
+  height: 420px;
+  text-align: center;
+  padding-top: 195px;
+  font-size: 18px;
+  line-height: 30px;
+  position: relative;
+  display: table-cell;
+  border: 1px solid #ececec;
+}
+
+.ochki h4 {
+  color: #979797;
+}
+
+.ochki:before {
+  content: "";
+  background: url(/homework6/Eyeglasses.svg) no-repeat center;
+  width: 66px;
+  height: 65px;
+  margin: 0 auto;
+  display: block;
+
+  position: absolute;
+  top: 68px;
+  left: 0;
+  right: 0;
+}
+
+.comp {
+  background-color: #f7f7f7;
+  width: 370px;
+  height: 420px;
+  text-align: center;
+  padding-top: 195px;
+  font-size: 18px;
+  line-height: 30px;
+  position: relative;
+  display: table-cell;
+  border: 1px solid #ececec;
+}
+
+.comp h4 {
+  color: #979797;
+}
+
+.comp:before {
+  content: "";
+  background: url(/homework6/Monitor.svg) no-repeat center;
+  width: 66px;
+  height: 65px;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 68px;
+  left: 0;
+  right: 0;
+  bottom: 68px;
+}

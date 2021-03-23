@@ -1,0 +1,53 @@
+table {
+  width: 100%;
+}
+
+table td {
+  width: 33.333%;
+  text-align: center;
+}
+
+.icon {
+  width: 63px;
+  height: 63px;
+  background-color: #1275b9;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.icon:hover {
+  background-color: white;
+  border: 1px solid #1275b9;
+}
+
+.icon1 {
+  background-image: url(/homework/homework5/image/Tablet-default.svg);
+}
+
+.icon1:hover {
+  background-image: url(/homework/homework5/image/Tablet.svg);
+}
+
+.icon2 {
+  background-image: url(/homework/homework5/image/Settings-default.svg);
+}
+
+.icon2:hover {
+  background-image: url(/homework/homework5/image/Settings.svg);
+}
+
+.icon3 {
+  background-image: url(/homework/homework5/image/Dashboard-default.svg);
+}
+
+.icon3:hover {
+  background-image: url(/homework/homework5/image/Dashboard.svg);
+}
+
+.text {
+  font-weight: normal;
+  text-align: center;
+}

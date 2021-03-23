@@ -1,0 +1,140 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+}
+
+body {
+  background-color: #b07cf7;
+}
+
+.container {
+  width: 1200px;
+  height: 644px;
+  margin: 100px auto;
+
+  position: center;
+}
+
+.blog {
+  text-align: center;
+  font-size: 90px;
+  color: #fff;
+}
+
+.blog__text {
+  text-align: center;
+  font-size: 90px;
+  color: #fff
+}
+
+.text {
+  width: 544px;
+  height: 65px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.text1 {
+  color: #fff;
+  font-size: 17px;
+}
+
+.box1 {
+  width: 370px;
+  height: 310px;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.boxi {
+  left: 165px;
+  top: 330px;
+  box-shadow: 7px 7px 5px 0px rgba(34, 60, 80, 0.24);
+  margin-right: 15px;
+}
+
+.box2 {
+  left: 565px;
+  top: 330px;
+  box-shadow: 7px 7px 5px 0px rgba(34, 60, 80, 0.24);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.box3 {
+  left: 965px;
+  top: 330px;
+  box-shadow: 7px 7px 5px 0px rgba(34, 60, 80, 0.24);
+  margin-left: 15px;
+}
+
+.buton {
+  position: absolute;
+  left: 650px;
+  top: 690px;
+}
+
+.buton__bloc {
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
+
+.button {
+  background-color: #f72b3b;
+  box-sizing: border-box;
+  width: 200px;
+  height: 56px;
+  box-shadow: 2px 2px 18px 0px rgba(0, 0, 0, 0.2);
+  border: 0;
+  color: #fff;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10%;
+  position: absolute;
+}
+
+.month {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: 700;
+}
+
+h3 {
+  color: #daddc8;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  font-size: 16px;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+}
+
+.text-bottom {
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 20px;
+  width: 306px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: #d6d9d4;
+  font-size: 12px;
+}
