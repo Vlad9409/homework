@@ -27,30 +27,35 @@
             <div class="p_contsiner">
                 <form action="/api/payment" method="GET">
                     <div class="entru__info-label">
-                        <input type="text" name="text" value="Auskteez Tran" required maxlength="33">
+                        <input type="text" placeholder="Your name" required maxlength="256" required>
                     </div>
                     <div class="entru__info-label">
-                        <input type="text" name="text" value="Your email..." required maxlength="33">
+                        <input type="text" placeholder="Your email..." required maxlength="256" required>
                     </div>
                     <div class="entru__info-label">
-                        <input type="text" name="number" value="Your phone number..." required maxlength="33">
+                        <input type="text" placeholder="Your phone number..." required maxlength="13" required>
                     </div>
                     <div class="entru__info-label-rextarea">
                         <textarea name="tablo" id="" cols="30" rows="10">     Your messge</textarea>
                     </div>
-                    <div class="entru__field-maininfo">
-                        <h2 class="text__name">ADDRESS</h2>
-                        <h3 class="text__info">123 City name, Street, City, Country</h3>
-                    </div>
-                    <div class="entru__field-maininfo-email">
-                        <h2 class="text__name">EMAIL</h2>
-                        <h3 class="text__info">cahee@domain.com</h3>
-                    </div>
-                    <div class="entru__field-maininfo-number">
-                        <h2 class="text__name">PHOME</h2>
-                        <h3 class="text__info">+012 345 6789</h3>
-                    </div>
                 </form>
+            </div>
+        </div>
+        <div class="block__maininfo">
+            <div class="entru__field-maininfo">
+                <h2 class="text__name">ADDRESS</h2>
+                <h3 class="text__info">123 City name, Street, City, Country</h3>
+            </div>
+            <div class="entru__field-maininfo-email">
+                <h2 class="text__name">EMAIL</h2>
+                <h3 class="text__info">cahee@domain.com</h3>
+            </div>
+            <div class="entru__field-maininfo-number">
+                <h2 class="text__name">PHOME</h2>
+                <h3 class="text__info">+012 345 6789</h3>
+            </div>
+            <div class="input__button">
+                <input type="submit" name="submit" value="send" id="submit" hidden>
             </div>
         </div>
         <div class="page__footer">
@@ -59,7 +64,7 @@
                     <h3 class="text__footer">© 2015 Company. All right reserved.</h3>
                 </div>
                 <div class="page__footer-logo">
-                    <img src="/homework12/image/img.png" alt="logo">
+                    <img src="/homework12/image/logo-small.png" alt="logo">
                 </div>
                 <div class="page__footer-develop">
                     <h3 class="text__footer">Made with love by Auskteez</h3>

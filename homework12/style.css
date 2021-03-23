@@ -53,11 +53,16 @@ body {
 }
 
 .entru__field {
-  position: absolute;
   display: flex;
   flex-direction: row;
   margin-top: 40px;
   padding-left: 165px;
+}
+
+.block__maininfo {
+  width: 330px;
+  height: 166px;
+  box-sizing: border-box;
 }
 
 .entru__info-label {
@@ -76,6 +81,11 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   box-sizing: border-box;
+}
+
+.entru__info-label input:before {
+  content: "";
+  color: #fff;
 }
 
 .entru__info-label input:focus {
@@ -108,9 +118,9 @@ textarea {
 
 .entru__field-maininfo {
   width: 330px;
-  position: absolute;
-  left: 835px;
-  top: 0px;
+
+  margin-left: 835px;
+  margin-top: -420px;
 }
 
 .text__name {
@@ -131,18 +141,13 @@ textarea {
 
 .entru__field-maininfo-email {
   width: 330px;
-  position: absolute;
-  left: 835px;
-  top: 120px;
+  margin-left: 835px;
 }
 
 .entru__field-maininfo-number {
   width: 330px;
-  position: absolute;
-  left: 835px;
-  top: 60px;
+  margin-left: 835px;
 }
-
 
 .page__footer-blok {
   display: flex;
@@ -180,4 +185,12 @@ textarea {
   padding-top: 38px;
   padding-bottom: 41px;
   padding-right: 165px;
+}
+
+#submit {
+  width: 230px;
+  height: 50px;
+  margin-left: 835px;
+  margin-top: 170px;
+  background-color: #77dbdb;
 }
