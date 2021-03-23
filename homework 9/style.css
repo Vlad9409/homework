@@ -1,0 +1,76 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.conteiner {
+  padding: 0 0 0 120px;
+  width: 1400px;
+  height: 940px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px 8px rgba(182, 182, 182, 0.2);
+  background-color: #fff;
+}
+
+.img {
+  margin-right: 36px;
+  float: left;
+  width: 62px;
+  height: 72px;
+}
+
+.cont {
+  width: 1160px;
+  height: 680px;
+}
+
+.Willow {
+  padding: 140px 0 0 0;
+  line-height: 20px;
+}
+
+.avat {
+  margin-top: 40px;
+}
+
+.p1 {
+  line-height: 30px;
+  font-size: 19px;
+  color: #666666;
+}
+
+.p2 {
+  line-height: 30px;
+  font-size: 19px;
+  color: #666666;
+}
+
+.button {
+  background-color: #fff;
+  width: 260px;
+  height: 64px;
+  border: 2px solid #eaa258;
+  color: #eaa258;
+}
+
+.button:hover {
+  background-color: #fff;
+  width: 260px;
+  height: 64px;
+  border: 2px solid #25df2e;
+  color: #25df2e;
+}
+
+.niz {
+  font-style: italic;
+  font-size: 25px;
+}
+
+.zap {
+  margin-top: 30px;
+  margin-right: 10px;
+  font-size: 50px;
+}
