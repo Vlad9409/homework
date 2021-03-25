@@ -11,8 +11,8 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  width: 1920px;
-  min-height: 1076px;
+  max-width: 1920px;
+  height: 1076px;
   background: url(/homework13/image/hero-bg.jpg.svg) center no-repeat;
 }
 
@@ -76,19 +76,41 @@ h1 {
 .about-us {
   display: flex;
   justify-content: center;
-  position: relative;
-  width: 1920px;
+  max-width: 1920px;
   min-height: 632px;
 }
 
 .about-us__content {
+  position: relative;
   margin-top: 162px;
   width: 902px;
   height: 312px;
   background-color: #ffffff;
+  border: 1px solid #000;
+  border-top: 0;
+}
+
+.about-us__content::before,
+.about-us__content::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 240px;
+  top: 0;
+  background-color: #000;
+}
+
+.about-us__content::before {
+  left: 0;
+}
+
+.about-us__content::after {
+  right: 0;
 }
 
 .about__us-text {
+  position: relative;
+  top: -70px;
   font-size: 34px;
   letter-spacing: 5px;
   color: #3c3c3c;
@@ -98,15 +120,17 @@ h1 {
 }
 
 .about-us__text {
-  width: 552px;
+  max-width: 552px;
   margin: 0 auto;
   padding-left: 175px;
   padding-right: 175px;
 }
 
 .about__us-maincontent {
+  position: relative;
+  top: -70px;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 30px;
   color: #3c3c3c;
   font-weight: 300;
   font-family: "Lato";
@@ -116,29 +140,57 @@ h1 {
 .services {
   display: flex;
   justify-content: center;
-  position: relative;
-  width: 1920px;
+  max-width: 1920px;
   min-height: 488px;
   background: url(/homework13/image/services.jpg.svg) no-repeat;
 }
 
 .services__content {
+  position: relative;
   margin-top: 128px;
   width: 902px;
   height: 248px;
   padding-left: 175px;
   padding-right: 175px;
+  border: 1px solid #fff;
+  border-top: 0;
+}
+
+.services__content::before,
+.services__content::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 238px;
+  top: 0;
+  background-color: #fff;
+}
+
+.services__content::before {
+  left: 0;
+}
+
+.services__content::after {
+  right: 0;
+}
+
+.services__content-block {
+  position: relative;
+  right: 0px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .services__content-text {
-  width: 552px;
+  max-width: 552px;
   margin: 0 auto;
   border-color: #fff;
-  padding-left: 87px;
-  padding-right: 87px;
 }
 
-.services__content-description {
+.services-text {
+  position: relative;
+  top: -40px;
   font-size: 34px;
   letter-spacing: 5px;
   color: #ffffff;
@@ -160,15 +212,38 @@ h1 {
   display: flex;
   justify-content: center;
   position: relative;
-  width: 1920px;
-  height: 1400px;
+  max-width: 1920px;
+  width: 100%;
+  max-height: 1400px;
+  margin-bottom: 115px;
 }
 
 .what-we-do__content {
+  position: relative;
   margin-top: 120px;
   width: 902px;
   height: 1300px;
   background-color: #ffffff;
+  border: 1px solid #000;
+  border-top: 0;
+}
+
+.what-we-do__content::before,
+.what-we-do__content::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 238px;
+  top: 0;
+  background-color: #000;
+}
+
+.what-we-do__content::before {
+  left: 0;
+}
+
+.what-we-do__content::after {
+  right: 0;
 }
 
 .what-we-do__content-text {
@@ -179,7 +254,9 @@ h1 {
   padding-right: 175px;
 }
 
-.what-we-do__content-text-description {
+.what-we__text {
+  position: relative;
+  top: -50px;
   font-size: 34px;
   letter-spacing: 5px;
   color: #3c3c3c;
@@ -248,7 +325,7 @@ h1 {
   margin-top: 115px;
 }
 
-fieldset .product-management__text {
+.product-management__text {
   margin-top: 38px;
   font-size: 20px;
   letter-spacing: 3px;
@@ -269,69 +346,64 @@ fieldset .product-management__text {
 }
 
 .galery {
-  margin-top: 115px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   position: relative;
-  width: 1920px;
-  height: 484px;
-  background-color: thistle;
+  margin: 0 auto;
+  max-width: 1920px;
+  width: 100%;
+  max-height: 484px;
 }
 
 .galery-blok {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 -2px;
 }
 
-.dalery-blok__topworks {
+.dalery-blok__item {
+  position: relative;
   box-sizing: border-box;
   width: 548px;
   height: 237px;
-  margin-bottom: 5px;
-  margin-right: 4px;
+  margin: 5px 2px 0 2px;
 }
 
 .dalery-blok__joint {
   box-sizing: border-box;
   width: 802px;
   height: 237px;
-  margin-bottom: 5px;
-  margin-right: 4px;
-  margin-left: 4px;
+  margin: 5px 2px 0 2px;
 }
 
 .dalery-blok__market {
   box-sizing: border-box;
   width: 550px;
   height: 237px;
-  margin-bottom: 5px;
-  margin-left: 4px;
+  margin: 5px 2px 0 2px;
 }
 
 .dalery-blok__worktop {
   box-sizing: border-box;
   width: 548px;
   height: 237px;
-  margin-top: 5px;
-  margin-right: 4px;
+  margin: 5px 2px 0 2px;
 }
 
 .dalery-blok__lable {
   box-sizing: border-box;
   width: 802px;
   height: 237px;
-  margin-top: 5px;
-  margin-right: 4px;
-  margin-left: 4px;
+  margin: 5px 2px 0 2px;
 }
 
 .dalery-blok__kyiv {
   box-sizing: border-box;
   width: 550px;
   height: 237px;
-  margin-top: 5px;
-  margin-left: 4px;
+  margin: 5px 2px 0 2px;
 }
 
 .topworkz {
@@ -349,18 +421,41 @@ fieldset .product-management__text {
   flex-direction: column;
   align-items: center;
   position: relative;
-  width: 1920px;
-  height: 600px;
+  max-width: 1920px;
+  max-height: 600px;
 }
 
 .contact-us__container {
+  position: relative;
   margin-top: 130px;
   width: 902px;
   height: 294px;
   background-color: #ffffff;
+  border: 1px solid #000;
+  border-top: 0;
 }
 
-.contact-us__info {
+.contact-us__container::before,
+.contact-us__container::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 238px;
+  top: 0;
+  background-color: #000;
+}
+
+.contact-us__container::before {
+  left: 0;
+}
+
+.contact-us__container::after {
+  right: 0;
+}
+
+.contakt-text {
+  position: relative;
+  top: -45px;
   font-size: 30px;
   letter-spacing: 5px;
   color: #3c3c3c;
