@@ -1,0 +1,611 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1920px;
+  height: 1076px;
+  background: url(/homework15/image/hero-bg.jpg.svg) center no-repeat;
+}
+
+HTML fieldset {
+  position: relative;
+}
+
+HTML legend {
+  position: relative;
+}
+
+.header__logo {
+  position: absolute;
+  top: 284px;
+}
+
+.header__text {
+  max-width: 902px;
+  width: 100%;
+  color: #fff;
+  margin: 450px auto 0 auto;
+}
+
+.header__text-blok {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 9px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+}
+
+@media (max-width: 850px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+.header__text-maintext {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.header__text-info {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 29px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.header__text-scroll {
+  display: flex;
+  justify-content: center;
+  margin-top: 184px;
+}
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.about-us__content {
+  position: relative;
+  margin-top: 162px;
+  margin-bottom: 162px;
+  max-width: 902px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #000;
+  border-top: 0;
+}
+
+.about-us__content::before,
+.about-us__content::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 25%;
+  top: 0;
+  background-color: #000;
+}
+
+.about-us__content::before {
+  left: 0;
+}
+
+.about-us__content::after {
+  right: 0;
+}
+
+.about__us-text {
+  position: relative;
+  margin-top: -70px;
+  margin-bottom: -10px;
+  font-size: 34px;
+  letter-spacing: 5px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+@media (max-width: 850px) {
+  .about-text {
+    font-size: 24px;
+    margin-top: 55px;
+    margin-bottom: 30px;
+  }
+}
+
+.about-us__text {
+  max-width: 552px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.about__us-maincontent {
+  position: relative;
+  font-size: 16px;
+  line-height: 30px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1920px;
+  background: url(/homework15/image/services.jpg.svg) center/cover no-repeat;
+}
+
+.services__content {
+  position: relative;
+  margin-top: 110px;
+  max-width: 902px;
+  width: 100%;
+  margin-bottom: 110px;
+  border: 1px solid #fff;
+  border-top: 0;
+}
+
+.services__content::before,
+.services__content::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 25%;
+  top: 0;
+  background-color: #fff;
+}
+
+.services__content::before {
+  left: 0;
+}
+
+.services__content::after {
+  right: 0;
+}
+
+.services__content-block {
+  position: relative;
+  right: 0px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.services__content-text {
+  max-width: 552px;
+  margin: 0 auto;
+  border-color: #fff;
+  padding-bottom: 20px;
+}
+
+.services-text {
+  position: relative;
+  margin-top: -10px;
+  font-size: 34px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+@media (max-width: 850px) {
+  .services-text {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+.services__content-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.what-we-do {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.what-we-do__content {
+  position: relative;
+  margin: 120px auto;
+  max-width: 902px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #000;
+  border-top: 0;
+}
+
+.what-we-do__content::before,
+.what-we-do__content::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 25%;
+  top: 0;
+  background-color: #000;
+}
+
+.what-we-do__content::before {
+  left: 0;
+}
+
+.what-we-do__content::after {
+  right: 0;
+}
+
+.what-we-do__content-text {
+  max-width: 552px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.what-we__text {
+  position: relative;
+  margin-top: -20px;
+  font-size: 34px;
+  letter-spacing: 5px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+@media (max-width: 850px) {
+  .what-we__text {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+.what-we-do__image {
+  display: flex;
+  justify-content: center;
+  margin-top: 115px;
+}
+
+.what-we-do__content-text-design {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.what-we-do__content-maintext {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 26px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.what-we-do__comand {
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+}
+
+.what-we-do__comand-text-development {
+  margin-top: 38px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.what-we-do__comand-maintext {
+  margin-top: 40px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.product-management__image {
+  display: flex;
+  justify-content: center;
+  margin-top: 115px;
+}
+
+.product-management__text {
+  margin-top: 38px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.prodact-management__maintext {
+  margin-top: 40px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.galery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.galery-blok {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -2px;
+}
+
+.dalery-blok__item {
+  position: relative;
+  box-sizing: border-box;
+  /*max-width: 548px;*/
+  max-width: 802px;
+  width: 548px;
+  height: 237px;
+  margin: 5px 2px 0 2px;
+  background-size: cover;
+}
+
+.dalery-blok__item:nth-child(3n-1) {
+  flex-grow: 1;
+}
+@media (max-width: 1652px) {
+  .dalery-blok__item {
+    flex-grow: 1;
+    width: calc(33% - 4px);
+  }
+}
+
+@media (max-width: 1280px) {
+  .dalery-blok__item {
+    width: calc(50% - 4px);
+  }
+}
+
+@media (max-width: 650px) {
+  .dalery-blok__item {
+    width: calc(100% - 4px);
+  }
+}
+
+/*.dalery-blok__joint {
+  box-sizing: border-box;
+  width: 802px;
+  height: 237px;
+  margin: 5px 2px 0 2px;
+}
+
+.dalery-blok__market {
+  box-sizing: border-box;
+  width: 550px;
+  height: 237px;
+  margin: 5px 2px 0 2px;
+}
+
+.dalery-blok__worktop {
+  box-sizing: border-box;
+  width: 548px;
+  height: 237px;
+  margin: 5px 2px 0 2px;
+}
+
+.dalery-blok__lable {
+  box-sizing: border-box;
+  width: 802px;
+  height: 237px;
+  margin: 5px 2px 0 2px;
+}
+
+.dalery-blok__kyiv {
+  box-sizing: border-box;
+  width: 550px;
+  height: 237px;
+  margin: 5px 2px 0 2px;
+}*/
+
+.topworkz {
+  margin-top: 170px;
+  margin-left: 48px;
+  font-size: 34px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+}
+
+@media (max-width: 850px) {
+  .topworkz {
+    font-size: 22px;
+  }
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.contact-us__container {
+  position: relative;
+  margin-top: 130px;
+  max-width: 902px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #000;
+  border-top: 0;
+}
+
+.contact-us__container::before,
+.contact-us__container::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 25%;
+  top: 0;
+  background-color: #000;
+}
+
+.contact-us__container::before {
+  left: 0;
+}
+
+.contact-us__container::after {
+  right: 0;
+}
+
+.contakt-text {
+  position: relative;
+  margin-top: -20px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+@media (max-width: 850px) {
+  .contakt-text {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+.contact-us__text {
+  max-width: 552px;
+  width: 100%;
+  min-height: 270px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.contact-us__maintext {
+  font-size: 16px;
+  line-height: 26px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.contact-us__button {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.button-submit {
+  max-width: 395px;
+  width: 100%;
+  min-height: 58px;
+  background-color: #3c3c3c;
+  border: 2px solid #3c3c3c;
+  color: #d8d8d8;
+}
+
+.button-submit:hover {
+  content: "";
+  background-color: #a8a8a8;
+  border: 2px solid #a8a8a8;
+  color: #fff;
+}
+
+.contact-us__image {
+  margin-top: 78px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-us__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 19px;
+}
+
+.contac-us__footer {
+  margin-left: 19px;
+  font-size: 14px;
+  color: #3c3c3c;
+  font-weight: 400;
+  font-family: "Lato";
+}
+
+.about-text {
+  margin-left: 100px;
+  margin-right: 94px;
+}
+
+.services-text {
+  margin-left: 117px;
+  margin-right: 113px;
+}
+
+.what-we__text {
+  margin-left: 70px;
+  margin-right: 74px;
+}
+
+.contakt-text {
+  margin-left: 100px;
+  margin-right: 94px;
+}
