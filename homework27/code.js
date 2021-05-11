@@ -20,8 +20,10 @@ let shoppingList = [
 ];
 
 function showSort(arr) {
-  arr.sort((item1, item2) => item1.bought - item2.bought);
-  console.log(arr);
+  arr.sort(function (prevItem, nextItem) {
+    if (!prevItem.bought && nextItem.bought) return -1;
+    return 1;
+  });
 }
 
 let product1 = new Product(`Апельсин`);
@@ -31,7 +33,7 @@ let product3 = new Product(`Ананас`, `2шт.`);
 function addProduct(obj, arr) {
   let isProduct = arr.find((item) => item.name === obj.name);
 
-  if (isProduct !== undefined) {
+  if (!isProduct) {
     isProduct.count += obj.count;
   } else arr.push(obj);
 }
@@ -41,5 +43,5 @@ function compleatProduct(name, arr) {
   product.bought = true;
 }
 
-//addProduct(product1, shoppingList);
-//console.log(shoppingList);
+addProduct(product1, shoppingList);
+console.log(shoppingList);
